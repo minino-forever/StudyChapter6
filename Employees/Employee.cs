@@ -21,7 +21,15 @@ namespace Employees
         private string _empSSN;
         //тип оплаты труда
         private EmployeePayTypeEnum _payType;
-        
+
+        protected BenefitPackage EmpBenefits = new BenefitPackage();
+
+        public double GetBenefitCost() => EmpBenefits.ComputerPayDeduction();
+        public BenefitPackage Benefits
+        {
+            get{ return EmpBenefits; }
+            set{ EmpBenefits = value; }
+        }
 
         public string Name
         {
@@ -82,7 +90,7 @@ namespace Employees
         }
 
         //премиальные бонусы сотруднику
-        public void GiveBonus(float amount)
+        public virtual void GiveBonus(float amount)
         {
             Pay = this switch
             {
@@ -94,7 +102,7 @@ namespace Employees
         }
 
         //служебная информация сотрудника
-        public void DisplayStatus()
+        public virtual void DisplayStatus()
         {
             Console.WriteLine($"Name: {Name}");
             Console.WriteLine($"Age: {Age}");
