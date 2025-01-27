@@ -8,8 +8,13 @@ namespace Employees
 {
     sealed class PtSalesPerson : SalesPerson
     {
-       //  public PtSalesPerson(string fullName, int age, int empId, float currPay, string ssn, int numbOfSales)
-       // : base (fullName, age, empId, currPay, ssn, numbOfSales)
-       // { }
+        //  public PtSalesPerson(string fullName, int age, int empId, float currPay, string ssn, int numbOfSales)
+        // : base (fullName, age, empId, currPay, ssn, numbOfSales)
+        // { }
+
+        public override sealed void GiveBonus(float amount)
+        {
+            base.GiveBonus(amount);
+        }
     }
 }

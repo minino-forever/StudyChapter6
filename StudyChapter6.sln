@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BasicInheritance", "BasicIn
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Employees", "Employees\Employees.csproj", "{1F47BA6B-1935-4911-A336-F0FB469560EB}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shapes", "Shapes\Shapes.csproj", "{E1955FDB-F98F-4BF8-8550-E8D8E82A56BA}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{1F47BA6B-1935-4911-A336-F0FB469560EB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1F47BA6B-1935-4911-A336-F0FB469560EB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1F47BA6B-1935-4911-A336-F0FB469560EB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E1955FDB-F98F-4BF8-8550-E8D8E82A56BA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E1955FDB-F98F-4BF8-8550-E8D8E82A56BA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E1955FDB-F98F-4BF8-8550-E8D8E82A56BA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E1955FDB-F98F-4BF8-8550-E8D8E82A56BA}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

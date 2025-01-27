@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Employees
 {
     //сотрудник
-    internal class Employee
+    internal abstract class Employee
     {
         //имя сотрудника
         private string _empName;

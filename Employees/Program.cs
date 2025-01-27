@@ -20,11 +20,11 @@
 
             double cost = chucky.GetBenefitCost();
 
+            Console.WriteLine($"Benefit Cost: {cost}\n");
+
             chucky.GiveBonus(300);
 
             chucky.DisplayStatus();
-
-            Console.WriteLine($"Benefit Cost: {cost}\n");
         }
     }
 }
